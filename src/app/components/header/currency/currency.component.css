@@ -1,0 +1,9 @@
+.header__currency_container {
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+}
+
+.header__currency_code {
+    font-weight: bold;
+}

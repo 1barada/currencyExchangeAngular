@@ -1,0 +1,19 @@
+<input
+    class="converter_input"
+    type="number"
+    [value]="value || '0.00'"
+    (change)="onInputChange($event)"
+/>
+
+<select 
+    class="converter_select"
+    (change)="onSelectChange($event)">
+    <option
+        *ngIf="options.length === 0"
+        value="UAH"
+    >UAH</option>
+    <option
+        *ngFor="let option of options"
+        value="{{option}}"
+    >{{option}}</option>
+</select>

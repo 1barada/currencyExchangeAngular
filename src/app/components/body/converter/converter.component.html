@@ -1,0 +1,14 @@
+<app-converter-input 
+    class="converter_input_container"
+    [value]="leftValue" 
+    [options]="options"
+    (inputValue)="changeLeftInputValue($event)" 
+    (inputCode)="changeLeftInputCode($event)"
+/>
+<app-converter-input 
+    class="converter_input_container"
+    [value]="rightValue" 
+    [options]="options"
+    (inputValue)="changeRightInputValue($event)" 
+    (inputCode)="changeRightInputCode($event)"
+/>

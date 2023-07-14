@@ -1,0 +1,13 @@
+.converter_input {
+    border: solid 2px darkblue;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+}
+
+.converter_select {
+    border: solid 2px darkblue;
+    border-radius: 15px;
+    text-align: center;
+}

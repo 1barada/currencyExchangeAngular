@@ -1,0 +1,14 @@
+.app__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__header {
+    flex: 0 0 50px;
+    background-color: brown;
+}
+
+.app__body {
+    flex: 1 1 auto;
+}

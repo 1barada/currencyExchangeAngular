@@ -1,0 +1,19 @@
+.body__content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 400;
+	font-family: 'Inter', sans-serif;
+}
+
+.body__converter {
+    display: flex;
+    column-gap: 50px;
+}
